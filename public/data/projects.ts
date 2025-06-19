@@ -1,28 +1,24 @@
 export const projects = [
   {
-    // To use your own project photo, just place it in /public/assets and write the link as I did: eg: /assets/my_image.jpg
-    // Of course it's best to convert your image file type to webp for better performance on the web!
-    // Or just use a cloud image hosting platform like cloudinary and use the image url from there.
-    ImageURL: "/assets/Airlines_Delays.png", //
-    Title: "✈️ Airlines Delays 2008 - Data Analysis Project",
-    Description:
-      "This project provides a comprehensive visual and analytical review of U.S. airline operations and delays throughout the year 2008. Using real-world data and visual storytelling, we dive into the scale, causes, and patterns of delays and cancellations that shaped the passenger experience.",
+    ImageURL: "/assets/churn_rate_contract.png",
+    Title: "📊 Customer Churn Analysis Dashboard.",
+    Description: "This repository contains a comprehensive Customer Churn Analysis Dashboard developed using Power BI, focused on analyzing customer attrition trends across multiple dimensions and timeframes. The dashboard enables stakeholders to identify critical churn drivers, segment customers dynamically, and derive strategic insights to improve customer retention.",
     Technologies: [
-      "Excel",
-      "power BI",
+      "Power BI",
       "Data Analysis",
       "Data Visualization",
       "Power Query",
       "DAX",
       "Data Cleaning",
+      "Excel",
+      "Customer Analytics",
     ],
-    Source: "https://github.com/mohamed1kot/Airline_Delay_USA_analysis", // Optional!
+    Source: "https://github.com/mohamed1kot/ChurnAnalysisDashboard", // Optional!
   },
   {
-    ImageURL: "/assets/Athlete_Details.png",
-    Title: "🏅 Olympic Data Analysis Project",
-    Description:
-      "This project explores the Olympic Games through rich visualizations and interactive dashboards, offering insights into athletes, countries, sports, and medal achievements. The analysis is performed using Power BI, visualizing a large dataset of Olympic history.",
+    ImageURL: "/assets/Overview (1).png",
+    Title: "Plant Co. Performance Dashboard (Power BI)",
+    Description: "This Power BI project provides a comprehensive analysis of the performance of Plant Co., focusing on key business metrics such as Gross Profit, Sales, Quantity, and COGS. The project includes both an overall summary and a Year-To-Date (YTD) vs. Prior Year-To-Date (PYTD) comparison for 2024.",
     Technologies: [
       "Power BI",
       "Data Analysis",
@@ -32,23 +28,7 @@ export const projects = [
       "Data Cleaning",
       "Excel",
     ],
-    Source: "https://github.com/mohamed1kot/Athelete_Events_analysis", // Optional!
-  },
-  {
-    ImageURL: "/assets/Products.png",
-    Title: "🛒 Olist E-commerce Analysis Dashboard",
-    Description: "Welcome to the Olist E-commerce Dashboard project. This Power BI report provides deep, interactive insights into the operational dynamics of the Olist online shopping platform. It spans across multiple business domains including customers, products, sales, sellers, geography, and predictive analytics.",
-    Technologies: [
-      "Power BI",
-      "Data Analysis",
-      "Data Visualization",
-      "Power Query",
-      "DAX",
-      "Data Cleaning",
-      "Excel",
-      "Forecasting",
-    ],
-    Source: "https://github.com/mohamed1kot/Brazilian_E-Commerce_Olist_Dashboard", // Optional!
+    Source: "https://github.com/mohamed1kot/Plant_Co._Performance_Dashboard", // Optional!
   },
   {
     ImageURL: "/assets/Overview.png",
@@ -90,24 +70,26 @@ export const projects = [
     Source: "https://github.com/mohamed1kot/Emergency-Room-Dashboard", // Optional!
   },
   {
-    ImageURL: "/assets/Overview(1).png",
-    Title: "Plant Co. Performance Dashboard (Power BI)",
-    Description: "This Power BI project provides a comprehensive analysis of the performance of Plant Co., focusing on key business metrics such as Gross Profit, Sales, Quantity, and COGS. The project includes both an overall summary and a Year-To-Date (YTD) vs. Prior Year-To-Date (PYTD) comparison for 2024.",
+    ImageURL: "/assets/Airlines_Delayes.png", //
+    Title: "✈️ Airlines Delays 2008 - Data Analysis Project",
+    Description:
+      "This project provides a comprehensive visual and analytical review of U.S. airline operations and delays throughout the year 2008. Using real-world data and visual storytelling, we dive into the scale, causes, and patterns of delays and cancellations that shaped the passenger experience.",
     Technologies: [
-      "Power BI",
+      "Excel",
+      "power BI",
       "Data Analysis",
       "Data Visualization",
       "Power Query",
       "DAX",
       "Data Cleaning",
-      "Excel",
     ],
-    Source: "https://github.com/mohamed1kot/Plant_Co._Performance_Dashboard", // Optional!
+    Source: "https://github.com/mohamed1kot/Airline_Delay_USA_analysis", // Optional!
   },
   {
-    ImageURL: "/assets/churn_rate_contract.png",
-    Title: "📊 Customer Churn Analysis Dashboard.",
-    Description: "This repository contains a comprehensive Customer Churn Analysis Dashboard developed using Power BI, focused on analyzing customer attrition trends across multiple dimensions and timeframes. The dashboard enables stakeholders to identify critical churn drivers, segment customers dynamically, and derive strategic insights to improve customer retention.",
+    ImageURL: "/assets/Athelete_Details.png",
+    Title: "🏅 Olympic Data Analysis Project",
+    Description:
+      "This project explores the Olympic Games through rich visualizations and interactive dashboards, offering insights into athletes, countries, sports, and medal achievements. The analysis is performed using Power BI, visualizing a large dataset of Olympic history.",
     Technologies: [
       "Power BI",
       "Data Analysis",
@@ -116,9 +98,24 @@ export const projects = [
       "DAX",
       "Data Cleaning",
       "Excel",
-      "Customer Analytics",
     ],
-    Source: "https://github.com/mohamed1kot/ChurnAnalysisDashboard", // Optional!
+    Source: "https://github.com/mohamed1kot/Athelete_Events_analysis", // Optional!
+  },
+  {
+    ImageURL: "/assets/Products.png",
+    Title: "🛒 Olist E-commerce Analysis Dashboard",
+    Description: "Welcome to the Olist E-commerce Dashboard project. This Power BI report provides deep, interactive insights into the operational dynamics of the Olist online shopping platform. It spans across multiple business domains including customers, products, sales, sellers, geography, and predictive analytics.",
+    Technologies: [
+      "Power BI",
+      "Data Analysis",
+      "Data Visualization",
+      "Power Query",
+      "DAX",
+      "Data Cleaning",
+      "Excel",
+      "Forecasting",
+    ],
+    Source: "https://github.com/mohamed1kot/Brazilian_E-Commerce_Olist_Dashboard", // Optional!
   },
   {
     ImageURL: "/assets/Postgres.png",

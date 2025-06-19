@@ -4,9 +4,9 @@ import {
   VStack,
   Flex,
   Box,
-  keyframes,
   useColorModeValue,
 } from "@chakra-ui/react";
+import { keyframes } from "@emotion/react";
 import { useEffect } from "react";
 import HomeItem from "../components/HomeItem";
 import { homeData } from "../../public/data/home";
@@ -81,7 +81,7 @@ const Home = ({ setPage }: Props) => {
             letterSpacing="wide"
             color={headingColor}
           >
-            KAREEM HAMOUDA
+            Mohamed Khotaby
           </Text>
           <Text
             fontSize={{ base: "lg", md: "xl" }}
@@ -89,7 +89,7 @@ const Home = ({ setPage }: Props) => {
             color={accentColor}
             mb={{ base: 6, md: 10 }}
           >
-            Full Stack Developer | MERN
+            Data Analysis | MEC Academy
           </Text>
         </Box>
 

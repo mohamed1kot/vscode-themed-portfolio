@@ -1,4 +1,4 @@
-# Kareem Hamouda's Portfolio with the Visual Studio Code Theme
+# Mohamed Khotaby's Portfolio with the Visual Studio Code Theme
 
 ## Table of Contents
 
@@ -19,7 +19,7 @@
 
 ### Screenshot
 
-![](./public/assets/project-vscode.webp)
+![](./public/assets/home.png)
 
 ### Links
 
@@ -45,7 +45,7 @@
 1. **Fork** this repository to your GitHub account.
 2. **Clone** the forked repository:
    ```bash
-   git clone https://github.com/your-username/vs-code-themed-portfolio.git
+   git clone https://github.com/mohamed1kot/vs-code-themed-portfolio.git
    ```
 3. Navigate to the project folder:
    ```bash
@@ -127,7 +127,3 @@ If you'd like to use your own API instance:
 
 ---
 
-## Author
-
-- Website – [Kareem Hamouda](https://vs-code-themed-portfolio-theta.vercel.app/)
-- LinkedIn – [@Kareem Hamouda](https://www.linkedin.com/in/kareem-hamouda/)

@@ -6,7 +6,7 @@ import {
   VStack,
   useBreakpointValue,
 } from "@chakra-ui/react";
-import { Formik, Form } from "formik";
+import { Formik, Form, FormikHelpers, FormikProps } from "formik";
 import { useState, useEffect } from "react";
 import { validationSchema, FormValues } from "../utils/validation";
 import { sendEmail } from "../utils/sendEmail";
@@ -37,7 +37,10 @@ const Contact = ({ setPage }: Props) => {
     message: "",
   };
 
-  const handleSubmit = async (values: FormValues, { resetForm }: any) => {
+  const handleSubmit = async (
+    values: FormValues,
+    { resetForm }: FormikHelpers<FormValues>
+  ) => {
     setLoading(true);
     try {
       const result = await sendEmail(values);
@@ -83,7 +86,8 @@ const Contact = ({ setPage }: Props) => {
           validationSchema={validationSchema}
           onSubmit={handleSubmit}
         >
-          {({ values, handleChange, handleBlur, errors, touched }) => {
+          {(formikProps: FormikProps<FormValues>) => {
+            const { values, handleChange, handleBlur, errors, touched } = formikProps;
             const errorMap: Record<number, string> = {};
             if (errors.name && touched.name) errorMap[10] = errors.name;
             if (errors.email && touched.email) errorMap[11] = errors.email;
