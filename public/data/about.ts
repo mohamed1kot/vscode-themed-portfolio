@@ -9,7 +9,7 @@ export const aboutMe = {
 
 export const technicalSkills: Record<string, string[]> = {
   // You can rename the type of skills, it's dynamically rendered. eg: You can change "Programming Languages" -> to just "Languages"
-  "Programming Languages": ["Python", "C", "DAX", "SQL"],
+  "Programming Languages": ["Python", "C", "DAX", "SQL", "Shell Scripting"],
 
   "Business Intelligence": [
     "Power BI",
@@ -48,6 +48,7 @@ export const technicalSkills: Record<string, string[]> = {
     "SSIS",
     "SSRS",
     "Azure",
+    "Lunix",
   ],
   "Soft Skills": [
     "Presentation",
