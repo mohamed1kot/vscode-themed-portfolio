@@ -23,7 +23,7 @@
 
 ### Links
 
-- **Live Demo**: [https://vs-code-themed-portfolio-theta.vercel.app/](https://vs-code-themed-portfolio-theta.vercel.app/)
+- **Live Demo**: [https://vscode-themed-portfolio-mu.vercel.app/](https://vscode-themed-portfolio-mu.vercel.app/)
 
 ---
 
