@@ -1,6 +1,6 @@
 # Mohamed Khotaby's Portfolio with the Visual Studio Code Theme
 
-## Table of Contents
+## Table of Contents 
 
 - [Overview](#overview)
   - [Screenshot](#screenshot)
