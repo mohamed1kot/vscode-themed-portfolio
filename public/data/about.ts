@@ -4,7 +4,7 @@ export const aboutMe = {
   ],
   // Simply upload your CV to your Google Drive, then just copy the link to the uploaded file and paste it here.
   cvDriveLink:
-    "https://drive.google.com/file/d/1kh_38HVAwV4cHayfaJYzn87azqUV9U1I/view?usp=sharing",
+    "https://drive.google.com/file/d/1LwSbpjSpaOx5Iwdebtq8lQfMkOCvjeY1/view?usp=sharing",
 };
 
 export const technicalSkills: Record<string, string[]> = {
