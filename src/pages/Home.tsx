@@ -89,7 +89,7 @@ const Home = ({ setPage }: Props) => {
             color={accentColor}
             mb={{ base: 6, md: 10 }}
           >
-            Data Analysis | MEC Academy
+            Data Engineer & Data Analysis Instarctor (MEC Academy)
           </Text>
         </Box>
 

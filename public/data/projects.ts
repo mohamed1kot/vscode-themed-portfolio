@@ -1,5 +1,28 @@
 export const projects = [
   {
+    ImageURL: "/assets/overview_page.gif",
+    Title: "Ford GoBike Data Pipeline and Analytics Dashboard",
+    Description: "A robust, modular data pipeline for ingesting, processing, and analyzing Ford GoBike trip data using Apache Airflow, PostgreSQL, and Docker. The pipeline supports multi-layer ETL (Bronze, Silver, Gold), automated email notifications, and is designed for extensibility and reproducibility.",
+    Technologies: [
+      "Power BI",
+      "Data Analysis",
+      "Data Visualization",
+      "Power Query",
+      "DAX",
+      "Data Cleaning",
+      "Excel",
+      "Customer Analytics",
+      "Apache Airflow",
+      "Docker",
+      "PostgreSQL",
+      "Python",
+      "ETL",
+      "Data Engineering",
+      "Data Pipeline",
+    ],
+    Source: "https://github.com/mohamed1kot/FordGoBike-data-pipeline", // Optional!
+  },
+  {
     ImageURL: "/assets/churn_rate_contract.png",
     Title: "📊 Customer Churn Analysis Dashboard.",
     Description: "This repository contains a comprehensive Customer Churn Analysis Dashboard developed using Power BI, focused on analyzing customer attrition trends across multiple dimensions and timeframes. The dashboard enables stakeholders to identify critical churn drivers, segment customers dynamically, and derive strategic insights to improve customer retention.",
